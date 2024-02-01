@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FE5D37;
-    --light: #FFF5F3;
+    --primary: #fe5d37;
+    --light: #fff5f3;
     --dark: #103741;
 }
 
@@ -13,30 +13,28 @@
     z-index: 99;
 }
 
-
 /*** Spinner ***/
 #spinner {
     opacity: 0;
     visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    transition: opacity 0.5s ease-out, visibility 0s linear 0.5s;
     z-index: 99999;
 }
 
 #spinner.show {
-    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    transition: opacity 0.5s ease-out, visibility 0s linear 0s;
     visibility: visible;
     opacity: 1;
 }
 
-
 /*** Button ***/
 .btn {
     font-weight: 500;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .btn.btn-primary {
-    color: #FFFFFF;
+    color: #fff;
 }
 
 .btn-square {
@@ -64,7 +62,6 @@
     font-weight: normal;
     border-radius: 50px;
 }
-
 
 /*** Heading ***/
 h1,
@@ -96,7 +93,6 @@ h6,
     font-family: 'Open Sans', sans-serif, cursive;
 }
 
-
 /*** Navbar ***/
 .navbar .navbar-nav .nav-link {
     padding: 30px 15px;
@@ -112,7 +108,7 @@ h6,
 
 .navbar.sticky-top {
     top: -100px;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .navbar .dropdown-toggle::after {
@@ -122,7 +118,7 @@ h6,
     font-weight: 900;
     vertical-align: middle;
     margin-left: 5px;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .navbar .dropdown-toggle[aria-expanded=true]::after {
@@ -137,7 +133,7 @@ h6,
 
     .navbar .navbar-nav {
         margin-top: 15px;
-        border-top: 1px solid #EEEEEE;
+        border-top: 1px solid #eee;
     }
 }
 
@@ -148,18 +144,16 @@ h6,
         margin-top: 0;
         opacity: 0;
         visibility: hidden;
-        transition: .5s;
-
+        transition: 0.5s;
     }
 
     .navbar .nav-item:hover .dropdown-menu {
         top: 100%;
         visibility: visible;
-        transition: .5s;
+        transition: 0.5s;
         opacity: 1;
     }
 }
-
 
 /*** Header ***/
 .header-carousel::before,
@@ -225,12 +219,12 @@ h6,
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFFFFF;
+    color: #fff;
     background: transparent;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #fff;
     border-radius: 45px;
     font-size: 22px;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .header-carousel .owl-nav .owl-prev:hover,
@@ -247,7 +241,6 @@ h6,
 .breadcrumb-item+.breadcrumb-item::before {
     color: rgba(255, 255, 255, .5);
 }
-
 
 /*** Facility ***/
 .facility-item .facility-icon {
@@ -269,7 +262,7 @@ h6,
     top: 0;
     left: 0;
     background: rgba(255, 255, 255, .9);
-    transition: .5s;
+    transition: 0.5s;
     z-index: 1;
 }
 
@@ -312,7 +305,7 @@ h6,
     top: 0;
     left: 0;
     background: rgba(255, 255, 255, .9);
-    transition: .5s;
+    transition: 0.5s;
     z-index: 1;
 }
 
@@ -327,33 +320,30 @@ h6,
 }
 
 .facility-item * {
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .facility-item:hover * {
-    color: #FFFFFF !important;
+    color: #fff !important;
 }
-
 
 /*** About ***/
 .about-img img {
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .about-img img:hover {
     background: var(--primary) !important;
 }
 
-
 /*** Classes ***/
 .classes-item {
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .classes-item:hover {
     margin-top: -10px;
 }
-
 
 /*** Team ***/
 .team-item .team-text {
@@ -366,16 +356,15 @@ h6,
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: #FFFFFF;
+    background: #fff;
     border: 17px solid var(--light);
     border-radius: 250px;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .team-item:hover .team-text {
     border-color: var(--primary);
 }
-
 
 /*** Testimonial ***/
 .testimonial-carousel {
@@ -414,18 +403,17 @@ h6,
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFFFFF;
+    color: #fff;
     background: var(--primary);
     border-radius: 45px;
     font-size: 20px;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
     background: var(--dark);
 }
-
 
 /*** Footer ***/
 .footer .btn.btn-social {
@@ -435,10 +423,10 @@ h6,
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #FFFFFF;
+    color: #fff;
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 45px;
-    transition: .3s;
+    transition: 0.3s;
 }
 
 .footer .btn.btn-social:hover {
@@ -454,7 +442,7 @@ h6,
     font-size: 16px;
     font-weight: normal;
     text-transform: capitalize;
-    transition: .3s;
+    transition: 0.3s;
 }
 
 .footer .btn.btn-link::before {
@@ -482,7 +470,7 @@ h6,
 }
 
 .footer .copyright a {
-    color: #FFFFFF;
+    color: #fff;
 }
 
 .footer .footer-menu a {
