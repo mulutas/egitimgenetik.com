@@ -1,15 +1,12 @@
 User-agent: *
 Allow: /index.html
-Allow: /facility.html
-Allow: /classes.html
-Allow: /kidgames.html
-Allow: /kidgames2.html
-Allow: /kidgames3.html
-Allow: /kidgames4.html
-Allow: /kidgames5.html
-Allow: /kidgames6.html
-Disallow: /404.html
-Disallow: /contact.html
-
+Allow: /bilsemsinavihakkında.html
+Allow: /etkinlikler.html
+Allow: /bilsemzekabulmacalari.html
+Allow: /bilsemsinavicikmissorular.html
+Allow: /dilogrenme.html
+Allow: /matematikhafiza.html
+Allow: /okuloncesi.html
+Allow: /minizeka.html
 
 Sitemap: https://www.egitimgenetik.com/sitemap.xml
