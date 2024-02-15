@@ -1,12 +1,12 @@
 User-agent: *
 Allow: /index.html
-Allow: /bilsemsinavihakkında.html
+Allow: /bilsem-sinavi-hakkinda.html
 Allow: /etkinlikler.html
-Allow: /bilsemzekabulmacalari.html
-Allow: /bilsemsinavicikmissorular.html
-Allow: /dilogrenme.html
-Allow: /matematikhafiza.html
-Allow: /okuloncesi.html
-Allow: /minizeka.html
+Allow: /bilsem-zeka-bulmacalari.html
+Allow: /bilsem-sinavi-cikmis-sorular.html
+Allow: /dil-ogrenme.html
+Allow: /matematik-hafiza.html
+Allow: /okul-oncesi.html
+Allow: /mini-zeka.html
 
 Sitemap: https://www.egitimgenetik.com/sitemap.xml
